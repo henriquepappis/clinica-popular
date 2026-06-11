@@ -1,0 +1,10 @@
+{
+  "contextFiles": [
+    "docs/FUNCIONALIDADES.md",
+    "docs/ARQUITETURA.md",
+    "docs/API.md",
+    "docs/PADROES.md",
+    "docs/ROADMAP.md",
+    "docs/DB-SCHEMA.md"
+  ]
+}

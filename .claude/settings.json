@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(php artisan migrate)",
+      "PowerShell(docker compose ps)",
+      "PowerShell(docker compose exec -T app php artisan migrate --force)",
+      "PowerShell(docker compose exec -T app php artisan test --filter PriceTest)",
+      "PowerShell(docker compose exec -T app php artisan test)",
+      "PowerShell(docker compose exec -T app php artisan route:clear)",
+      "PowerShell(docker compose exec -T app php artisan config:clear)",
+      "PowerShell(docker compose exec -T app php artisan route:list --path=prices)",
+      "PowerShell(docker compose logs --tail=15 reverb)",
+      "PowerShell(docker compose stop reverb)",
+      "PowerShell(docker compose exec -T app cat /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini)",
+      "PowerShell(docker compose exec -T app php artisan --version)",
+      "PowerShell(docker compose exec -T app php artisan test 2>&1)"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+## ENCODING E FORMATTING
+
+### Charset
+- SEMPRE use UTF-8 para todos os arquivos
+- LF (Linux) como line ending, NOT CRLF
+- Sem BOM (Byte Order Mark)
+
+### EditorConfig
+- Projeto usa .editorconfig para padronização
+- Indentação: 4 espaços (PHP, JS)
+- YAML: 2 espaços
+- Remover trailing whitespace
+- Adicionar newline no final do arquivo
+
+### VSCode
+- Usar configurações em .vscode/settings.json
+- Instalar extensões recomendadas em .vscode/extensions.json
+- Xdebug configurado em .vscode/launch.json
+
+### Ao criar arquivos
+- Sempre encoding UTF-8
+- Sempre LF line endings
+- Sempre adicionar newline final
