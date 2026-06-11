@@ -25,3 +25,36 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Laravel
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.*.php
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+/bootstrap/cache/
+/storage/logs/*
+/storage/cache/*
+
+# Testing
+.phpunit.result.cache
+
+# Build
+/public/hot
+/public/storage
